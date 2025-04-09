@@ -2,7 +2,9 @@
 
 BetrEngine is a testbed for multi-version in-memory storage engine, designed to facilitate research and experimentation with core DBMS techniques.
 
-[betr-architecture-1.pdf](https://github.com/user-attachments/files/19659863/betr-architecture-1.pdf)
+## ✨ Architecture
+
+![BetrEngine Architecture](https://github.com/user-attachments/files/19659863/betr-architecture-1.pdf)
 
 
 ## ✨ Features
