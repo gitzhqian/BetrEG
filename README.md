@@ -2,16 +2,11 @@
 
 BetrEngine is a testbed for multi-version in-memory storage engine, designed to facilitate research and experimentation with core DBMS techniques.
 
-## ✨ Architecture
-
-![BetrEngine Architecture](https://github.com/user-attachments/files/19659863/betr-architecture-1.pdf)
-
-
 ## ✨ Features
 
 - ✅ Supports **multiple concurrency control algorithms**
 - ✅ Implements **heap-organized** and **index-organized** version storage schemes
-- ✅ Enables **version prefetching** for performance optimization
+- ✅ Enables **version prefetching** for read performance optimization
 - ✅ Benchmarks included:
   - [YCSB](https://github.com/brianfrankcooper/YCSB)
   - Full [TPC-C](http://www.tpc.org/tpcc/) benchmark support
