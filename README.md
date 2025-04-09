@@ -23,10 +23,6 @@ Build & Test
 To build the database.
 
     make -j
-
-To test the database
-
-    python test.py
     
 Configuration
 -------------
