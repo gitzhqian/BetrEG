@@ -8,8 +8,8 @@ BetrEngine is a testbed for multi-version in-memory storage engine, designed to 
 - ✅ Implements **heap-organized** and **index-organized** version storage schemes
 - ✅ Enables **version prefetching** for read performance optimization
 - ✅ Benchmarks included:
-  - [YCSB](https://github.com/brianfrankcooper/YCSB)
-  - Full [TPC-C](http://www.tpc.org/tpcc/) benchmark support
+  - [YCSB](https://github.com/brianfrankcooper/YCSB) benchmark implementation
+  - Full [TPC-C](http://www.tpc.org/tpcc/) benchmark implementation
 
 This testbed is based on the DBx1000 system, whose concurrency control scalability study can be found in the following paper:
 
