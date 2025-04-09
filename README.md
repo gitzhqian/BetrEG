@@ -1,12 +1,15 @@
-BetrEngine
------------------
+# BetrEngine
 
-BetrEngine is a testbed of an OLTP distributed database management system (DBMS). 
+BetrEngine is a **testbed for OLTP (Online Transaction Processing) distributed database systems**, designed to facilitate research and experimentation with core DBMS techniques.
 
-   It supports multiple concurrency control algorithms.
-   It supports heap-organized and index-organized version storage schemes.
-   It supports version prefetching.
-   It supports YCSB benchmarks and Full TPC-C benchmarks.
+## ✨ Features
+
+- ✅ Supports **multiple concurrency control algorithms**
+- ✅ Implements **heap-organized** and **index-organized** version storage schemes
+- ✅ Enables **version prefetching** for performance optimization
+- ✅ Benchmarks included:
+  - [YCSB](https://github.com/brianfrankcooper/YCSB)
+  - Full [TPC-C](http://www.tpc.org/tpcc/) benchmark support
 
 This testbed is based on the DBx1000 system, whose concurrency control scalability study can be found in the following paper:
 
